@@ -48,7 +48,9 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- <h4 class="title conference-title is-4">NeurIPS 2023</h4> -->
-            <h2 class="title is-2 publication-title">Motion-X: A Large-scale 3D Expressive Whole-body Human Motion Dataset</h2>
+            <h2 class="title is-2 publication-title">
+              Motion-X: A Large-scale 3D Expressive <br> Whole-body Human Motion Dataset
+            </h2>
             <div class="is-size-5 publication-authors">
               <!-- <span class="author-block">
                 <a href="https://scholar.google.com.hk/citations?user=SvaU2GMAAAAJ&hl=zh-CN">Jing Lin</a><sup>1,2</sup>,
@@ -96,13 +98,13 @@
                     <span>arXiv</span>
                   </a>
                 </span> -->
-                <!-- Video Link. -->
+                <!-- Paper Link. -->
                 <span class="link-block">
-                <a href="https://www.youtube.com/watch?v=s0cG3OVXQUo&t=2s" class="external-link button is-normal is-rounded is-dark">
+                <a href="https://openreview.net/attachment?id=WtajAo0JWU&name=pdf" class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
-                    <i class="fab fa-youtube"></i>
+                    <i class="ai ai-arxiv"></i>
                   </span>
-                  <span>Video</span>
+                  <span>Paper</span>
                 </a>
               </span>
                 <!-- Code Link. -->
@@ -111,16 +113,25 @@
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code (Coming Soon)</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://drive.google.com/file/d/1QZ5_eA_BDJVuTJAlIR2o9RoUnjrVPXSx/view?usp=drive_link" class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Data</span>
                   </a>
                 </span>
                 <!-- Dataset Link. -->
                 <span class="link-block">
-                  <a href="https://drive.google.com/file/d/1QZ5_eA_BDJVuTJAlIR2o9RoUnjrVPXSx/view?usp=drive_link" class="external-link button is-normal is-rounded is-dark">
+                  <a href="https://docs.google.com/document/d/1xeNQkkxD39Yi6pAtJrFS1UcZ2LyJ6RBwxicwQ2j3-Vs/edit?usp=sharing" class="external-link button is-normal is-rounded is-dark">
                     <span class="icon">
                       <i class="far fa-images"></i>
                     </span>
-                    <span>Data</span>
+                    <span>License</span>
                   </a>
               </div>
 
@@ -134,7 +145,7 @@
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <h3 class="title is-3 has-text-centered">Video</h3>
+        <h3 class="title is-3 has-text-centered"></h3>
         <!-- <h3 class="title is-3 has-text-centered">UBody Dataset</h3> -->
         <p align="middle">
           
@@ -150,7 +161,9 @@
     <div class="container is-max-desktop">
       <div class="hero-body">
         <h5 class="subtitle is-5">
-        <b>Motion-X</b> is a large-scale 3D expressive whole-body motion dataset, which comprises 13.7M precise 3D whole-body pose annotations (i.e., SMPL-X) covering 96K motion sequences from massive scenes.
+        <b>Motion-X</b> is a large-scale 3D expressive whole-body motion dataset, which comprises 13.7M precise 3D whole-body pose annotations (i.e., SMPL-X) 
+        covering 96K motion sequences from massive scenes, meanwhile providing corresponding semantic labels and pose descriptions.
+
         </h5>
         <img src="./static/images/teaser.png" autoplay muted loop playsinline height="100%">
       </div>
@@ -167,7 +180,7 @@
           <h2 class="title is-3">Abstract</h2>
           <div class="content has-text-justified">
             <p>
-              we propose <b>Motion-X</b>, a large-scale 3D expressive whole-body motion dataset. 
+              We propose <b>Motion-X</b>, a large-scale 3D expressive whole-body motion dataset. 
 
       
             </p>
@@ -179,7 +192,7 @@
               This pipeline is of high precision, cost-effective, and scalable for further research. 
             </p>
             <p>
-              Based on it, we construct <b>Motion-X</b>, which comprises <b>13.7M</b> precise 3D whole-body <b>pose annotations</b>(i.e., SMPL-X) covering <b>96K</b> motion sequences from massive scenes. 
+              Based on it, we construct <b>Motion-X</b>, which comprises <b>13.7M</b> precise 3D whole-body <b>pose annotations</b> (i.e., SMPL-X) covering <b>96K</b> motion sequences from massive scenes. 
               Besides, Motion-X provides <b>13.7M frame-level</b> whole-body pose descriptions and <b>96K sequence-level</b> semantic labels.
             </p>
             <p>
@@ -274,54 +287,45 @@
     </div>
   </section> -->
 
-  
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
         <h3 class="title is-3 has-text-centered">Motion-X Dataset</h3>
         <!-- <h3 class="title is-3 has-text-centered">UBody Dataset</h3> -->
-        <p align="middle">
-          <img src="./static/images/demo.png" width="720" height="240">
-        </p>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/overview.mp4" type="video/mp4">
+        </video>
         <h2 class="subtitle has-text-centered">
-          Overview of Motion-X. It includes: (a) diverse facial expressions extracted from BAUM,<br> 
-          (b) indoor motion with expressive face and hand motions,<br> 
-          (c) outdoor motion with diverse and challenging poses, and<br> 
-          (d) several motion sequences. 
+          Overview of Motion-X. 
         </h2>
-
-        <p style="margin-bottom: 1cm;"></p>
-        <h3 class="title is-3 has-text-centered">Motion Annotation Pipeline</h3>
-        <p align="middle">
-          <img src="./static/images/Anno_all.png" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          General Annotation Pipeline. 
-        </h2>
-
-        <p align="middle">
-          <img src="./static/images/Motion_Ann.png" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          Motion Annotation Pipeline. 
-        </h2>
-
-        <p align="middle">
-          <img src="./static/images/text_ann.png" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          Text Annotation Pipeline. 
-        </h2>
-        <!-- <h2 class="subtitle has-text-centered">
-          UBody dataset. From left to right: 1. Input, 2. ExPose, 3. Hand4Whoe, 4. OSX (Ours)
-        </h2> -->
-        <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
-          <source src="./static/videos/demo_video.gif" type="video/mp4">
-        </video> -->
       </div>
     </div>
   </section>
 
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h3 class="title is-3 has-text-centered">Visualization of the Annotation Pipeline</h3>
+        <!-- <h3 class="title is-3 has-text-centered">UBody Dataset</h3> -->
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/cross_the_single_plank_bridge_.mp4" type="video/mp4">
+        </video>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/perform_ballet_clip21.mp4" type="video/mp4">
+        </video>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/Aerial_Kick_Kungfu_wushu_clip3.mp4" type="video/mp4">
+        </video>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/Better_View_clip1.mp4" type="video/mp4">
+        </video>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/Play_the_stringed_guqin_clip7.mp4" type="video/mp4">
+        </video>
+        
+      </div>
+    </div>
+  </section>
   <!-- <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
@@ -354,104 +358,44 @@
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <h3 class="title is-3 has-text-centered">Examples in Motion-X</h3>
+        <h3 class="title is-3 has-text-centered">Examples of the sub-datasets in Motion-X</h3>
         <!-- <h3 class="title is-3 has-text-centered">UBody Dataset</h3> -->
-        <p align="middle">
-          <img src="./static/videos/conductmusic.gif" width="720" height="240">
-        </p>
+        <!-- <p align="middle">
+          <img src="./static/videos/online_video.mp4" width="720" height="240">
+        </p> -->
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/online_video.mp4" type="video/mp4">
+        </video>
         <h2 class="subtitle has-text-centered">
-          ConductMusic
+          Online Videos
         </h2>
 
-        <p align="middle">
-          <img src="./static/videos/conference.gif" width="720" height="240">
-        </p>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/aist.mp4" type="video/mp4">
+        </video>
         <h2 class="subtitle has-text-centered">
-          Conference
+          Multi-View Datasest (AIST++ and NTU-RGBD120)
         </h2>
 
-        <p align="middle">
-          <img src="./static/videos/entertainment.gif" width="720" height="240">
-        </p>
+        <video id="teaser" autoplay muted loop playsinline height="100%" width="870">
+          <source src="./static/videos/grab.mp4" type="video/mp4">
+        </video>
         <h2 class="subtitle has-text-centered">
-          Entertainment
+          Human-scene-interaction Datasets (GRAB and EgoBody)
         </h2>
 
-        <p align="middle">
-          <img src="./static/videos/fitness.gif" width="720" height="240">
-        </p>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/HAA500.mp4" type="video/mp4">
+        </video>
         <h2 class="subtitle has-text-centered">
-          Fitness
+          Action Recognition Datasets (HAA500 and HuMMan)
         </h2>
 
-        <p align="middle">
-          <img src="./static/videos/interview.gif" width="720" height="240">
-        </p>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/humanml.mp4" type="video/mp4">
+        </video>
         <h2 class="subtitle has-text-centered">
-          Interview
-        </h2>
-
-        <p align="middle">
-          <img src="./static/videos/livevlog.gif" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          LiveVlog
-        </h2>
-
-        <p align="middle">
-          <img src="./static/videos/magicshow.gif" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          MagicShow
-        </h2>
-
-        <p align="middle">
-          <img src="./static/videos/movie.gif" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          Movie
-        </h2>
-
-        <p align="middle">
-          <img src="./static/videos/olympic.gif" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          Olympic
-        </h2>
-
-        <p align="middle">
-          <img src="./static/videos/onlineclass.gif" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          OnlineClass
-        </h2>
-
-        <p align="middle">
-          <img src="./static/videos/signlanguage.gif" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          SignLanguage
-        </h2>
-
-        <p align="middle">
-          <img src="./static/videos/singing.gif" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          Singing
-        </h2>
-
-        <p align="middle">
-          <img src="./static/videos/speech.gif" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          Speech
-        </h2>
-
-        <p align="middle">
-          <img src="./static/videos/tvshow.gif" width="720" height="240">
-        </p>
-        <h2 class="subtitle has-text-centered">
-          TVShow
+          Body-Only Motion Capture Datasets (AMASS)
         </h2>
 
       </div>
@@ -459,27 +403,7 @@
   </section>
 
 
-
-
-
-
-  <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
-    <source src="./static/videos/demo_video.gif" type="video/mp4">
-  </video> -->
-
-
-
-  <!-- <p style="margin-bottom: -1.5cm;"></p>
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content is-size-6">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>@article{lin2023osx,
-  author    = {Lin, Jing and Zeng, Ailing and Wang, Haoqian and Zhang, Lei and Li, Yu},
-  title     = {One-Stage 3D Whole-Body Mesh Recovery with Component Aware Transformer},
-  journal   = {CVPR},
-  year      = {2023},
-}</code></pre>
-<h2 class="title">Contact Us</h2>
+  <!-- <h2 class="title">Contact Us</h2>
 <style>
   ul {
     list-style-type: circle;
@@ -494,22 +418,51 @@
 
 
 
+  <!-- <video id="teaser" autoplay muted loop playsinline height="100%">
+    <source src="./static/videos/demo_video.gif" type="video/mp4">
+  </video> -->
 
 
-  <footer class="footer">
-    <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-size-6">
-          <div class="content">
-            <p>
-              This website is created with this <a href="https://nerfies.github.io/">template</a>.
-            </p>
+
+  <p style="margin-bottom: -1.5cm;"></p>
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content is-size-6">
+  </code></pre>
+  <h2 class="title">License</h2>
+  <style>
+    ul {
+      list-style-type: circle;
+    }
+  </style>
+  <ul>
+    All data is distributed under the CC BY-NC-SA (Attribution-NonCommercial-ShareAlike) license. For the sub-datasets, although we annotate the motion-text labels with our annoation pipeline, we would ask the user to read the original license of each original dataset, 
+      and we would only provide our annotated result to the user with the approvals from the original Institution. 
+      Here we provide the link of the used assets:  </li>
+    <li> <a href="https://mimoza.marmara.edu.tr/~cigdem.erdem/BAUM1/">BAUM</a>, <a href="https://google.github.io/aistplusplus_dataset/">AIST++</a>, 
+      <a href="https://sanweiliti.github.io/egobody/egobody.html">EgoBody</a>  datasets are CC-BY 4.0 licensed. </li>
+    <li> <a href="https://www.cse.ust.hk/haa/">HAA500</a> dataset is MIT licensed.  </li>
+    <li> <a href="https://caizhongang.github.io/projects/HuMMan/">HuMMan</a> dataset is under S-Lab License v1.0. </li>
+    <li> <a href="https://rose1.ntu.edu.sg/dataset/actionRecognition/">NTU-RGBD120</a>, 
+      <a href="https://grab.is.tue.mpg.de/">GRAB</a>, <a href="https://amass.is.tue.mpg.de/">AMASS</a> dataset is released for academic research only and is free to researchers from educational or research institutes for non-commercial purposes. </li>
+    <li> Other data is under CC BY-SA 4.0 license. </li>
+
+  </ul>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="columns is-centered">
+          <div class="column is-size-6">
+            <div class="content">
+              <p>
+                This website is created with this <a href="https://nerfies.github.io/">template</a>. 
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
-</body>
+  </body>
 
-</html>
+  </html>
