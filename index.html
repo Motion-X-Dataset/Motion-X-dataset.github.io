@@ -142,6 +142,21 @@
     </div>
   </section>
 
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <h5 class="subtitle is-5">
+        <b>Motion-X</b> is a large-scale 3D expressive whole-body motion dataset, which comprises 13.7M precise 3D whole-body pose annotations (i.e., SMPL-X) 
+        covering 96K motion sequences from massive scenes, meanwhile providing corresponding semantic labels and pose descriptions.
+
+        </h5>
+        <img src="./static/images/teaser.png" autoplay muted loop playsinline height="100%">
+        <img src="./static/images/comp_data.png" autoplay muted loop playsinline height="100%">
+      </div>
+    </div>
+  </section>
+
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
@@ -156,20 +171,7 @@
       </div>
     </div>
   </section>
-
-  <section class="hero teaser">
-    <div class="container is-max-desktop">
-      <div class="hero-body">
-        <h5 class="subtitle is-5">
-        <b>Motion-X</b> is a large-scale 3D expressive whole-body motion dataset, which comprises 13.7M precise 3D whole-body pose annotations (i.e., SMPL-X) 
-        covering 96K motion sequences from massive scenes, meanwhile providing corresponding semantic labels and pose descriptions.
-
-        </h5>
-        <img src="./static/images/teaser.png" autoplay muted loop playsinline height="100%">
-      </div>
-    </div>
-  </section>
-
+  
   <p style="margin-bottom: -1.5cm;"></p>
 
   <section class="section">
@@ -296,8 +298,9 @@
           <source src="./static/videos/overview.mp4" type="video/mp4">
         </video>
         <h2 class="subtitle has-text-centered">
-          Overview of Motion-X. 
+          SMPL-X motion samples from the Motion-X dataset. 
         </h2>
+        <img src="./static/images/vis_annotation.png" autoplay muted loop playsinline height="100%">
       </div>
     </div>
   </section>
@@ -305,24 +308,52 @@
   <section class="hero teaser">
     <div class="container is-max-desktop">
       <div class="hero-body">
-        <h3 class="title is-3 has-text-centered">Visualization of the Annotation Pipeline</h3>
+        <h3 class="title is-3 has-text-centered">Visualization of motion annotations from massive online videos</h3>
         <!-- <h3 class="title is-3 has-text-centered">UBody Dataset</h3> -->
         <video id="teaser" autoplay muted loop playsinline height="100%">
           <source src="./static/videos/cross_the_single_plank_bridge_.mp4" type="video/mp4">
         </video>
         <video id="teaser" autoplay muted loop playsinline height="100%">
-          <source src="./static/videos/perform_ballet_clip21.mp4" type="video/mp4">
+          <source src="./static/videos/A_Monster_Powers_Up_Motion_Actorlnc_Sugiguchi_Hideki_clip1.mp4" type="video/mp4">
         </video>
         <video id="teaser" autoplay muted loop playsinline height="100%">
-          <source src="./static/videos/Aerial_Kick_Kungfu_wushu_clip3.mp4" type="video/mp4">
+          <source src="./static/videos/Aerial_Kick_Kungfu_wushu_clip17.mp4" type="video/mp4">
+        </video>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/Aerial_Kick_Kungfu_wushu_turn_over_clip10.mp4" type="video/mp4">
+        </video>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/Being_Chased_clip1.mp4" type="video/mp4">
         </video>
         <video id="teaser" autoplay muted loop playsinline height="100%">
           <source src="./static/videos/Better_View_clip1.mp4" type="video/mp4">
         </video>
+        </video>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/perform_ballet_clip39.mp4" type="video/mp4">
+        </video>
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/perform_ballet_clip20.mp4" type="video/mp4">
+        </video>
         <video id="teaser" autoplay muted loop playsinline height="100%">
           <source src="./static/videos/Play_the_stringed_guqin_clip7.mp4" type="video/mp4">
         </video>
-        
+        <video id="teaser" autoplay muted loop playsinline height="100%">
+          <source src="./static/videos/perform_ballet_clip24.mp4" type="video/mp4">
+        </video> 
+        <br>
+          <img src="./static/images/whole_annotation.png" autoplay muted loop playsinline height="100%">
+          <p class="caption">llustration of the overall data collection and annotation pipeline.</p>
+        <br/>
+        <br>
+          <img src="./static/images/motion_annotation.png" autoplay muted loop playsinline height="100%">
+          <p class="caption">The automatic pipeline for the whole-body motion capture from  massive videos, including 2D and 3D whole-body keypoints estimation, local pose optimization, and global translation optimization. This pipeline supports both single- and multi-view inputs. Dashed lines represent the handling of multi-view data exclusively.</p>
+        <br/>
+        <br>
+          <img src="./static/images/text_annotation.png" autoplay muted loop playsinline height="100%">
+          <p class="caption">Illustration of (a) annotation of the whole-body pose description, and (b) an example of the text labels.</p>
+        <br/>
+      
       </div>
     </div>
   </section>
@@ -362,6 +393,12 @@
         <!-- <h3 class="title is-3 has-text-centered">UBody Dataset</h3> -->
         <!-- <p align="middle">
           <img src="./static/videos/online_video.mp4" width="720" height="240">
+
+        <br>
+          <img src="./static/images/stat_motionx.png" autoplay muted loop playsinline height="100%">
+          <p class="caption">Motion-X is a superset consisting of eight public datasets and 15K online videos. We annotate all data via our proposed motion and text annotation methods.</p>
+        <br/>
+  
         </p> -->
         <video id="teaser" autoplay muted loop playsinline height="100%">
           <source src="./static/videos/online_video.mp4" type="video/mp4">
